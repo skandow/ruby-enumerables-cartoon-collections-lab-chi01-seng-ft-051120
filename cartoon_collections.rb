@@ -12,7 +12,13 @@ def summon_captain_planet(planeteer_calls)
   big_calls
 end
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(words)
+  words.each do |str|
+    if str.length > 4
+      verdict = 1 
+    end 
+  end
+  
   # Your code here
 end
 
