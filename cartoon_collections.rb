@@ -24,13 +24,14 @@ end
 
 def find_the_cheese(snacks)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  winner = "none"
   cheese_types.each do |cheese|
     if snacks.include?(cheese) == true
       winner = cheese
       return winner 
     end 
   end
-  if !winner 
+  if winner == "none"
     return nil 
   end 
 end
