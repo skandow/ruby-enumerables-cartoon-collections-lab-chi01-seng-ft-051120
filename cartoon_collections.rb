@@ -18,7 +18,7 @@ def long_planeteer_calls(words)
       verdict = 1 
     end 
   end
-  verdict >= 1 ? 
+  verdict >= 1 ? true : false 
 end
 
 def find_the_cheese# code an argument here
